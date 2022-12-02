@@ -1,12 +1,44 @@
-/* *{
+*{
     font-family: sans-serif;
 }
 
+.bg-image{
+    padding-left: 15px;
+    padding-top: 10px;
+}
 
-body{
-    margin-top: 50%;
-} */
+.in-put{
+    display: inline-block;
+    padding-right: 50px;
+    margin-bottom:px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    
+}
 
-input{
-    border: none
+.sign-head{
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    font-weight: bolder;
+    font-size: 2.5em;
+}
+
+.fa-facebook-f,.fa-twitter, .fa-google, .fa-linkedin-in{
+    margin-right: 9px;
+    font-size:x-large;
+    padding: 15px 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.plat-icon{
+    display: flex;
+    justify-content: center;
+    padding-top: 105px;
+    
+}
+
+.w-75{
+    width: 70% !important;
 }
