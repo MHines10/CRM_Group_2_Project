@@ -1,6 +1,10 @@
 *{
     font-family: sans-serif;
 }
+html{
+    height: 100%;
+    min-width: 1258px;
+}
 
 .bg-image{
     padding-left: 15px;
@@ -36,7 +40,7 @@
 .plat-icon{
     display: flex;
     justify-content: center;
-    padding-top: 105px;
+    padding-top: 10px;
     
 }
 
@@ -50,7 +54,8 @@
     font-weight: bold;
     background-color: rgba(8,80,248,255);
     border: 0px solid;
-    margin-left: 50px;
+    margin-left: 40px;
+    margin-bottom: 1rem;
     border-radius: 50px;
     padding: 5px 45px;
 }
@@ -62,12 +67,12 @@
 }
 
 .user-name{
-    margin-bottom: 2em;
+    margin-bottom: 3.5em;
     height: 2.5em;
 }
 
 .user-email{
-    margin-bottom: 2em;
+    margin-bottom: 3.5em;
     height: 2.5em;
 }
 
@@ -77,5 +82,19 @@
 }
 
 .fa-user{
-    color: red;
+    position: absolute;
+    top: 9.7rem;
+    left: 12.5rem;
+}
+
+.fa-envelope{
+    position: absolute;
+    top: 15.7rem;
+    left: 12.5rem;
+}
+
+.fa-lock{
+    position: absolute;
+    top: 21.7rem;
+    left: 12.5rem;
 }
