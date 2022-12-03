@@ -1,8 +1,10 @@
 *{
     font-family: sans-serif;
 }
+
+
 html{
-    height: 100%;
+    height: 100vh;
     min-width: 1258px;
 }
 
@@ -17,6 +19,7 @@ html{
     margin-bottom:px;
     border: 1px solid gray;
     border-radius: 50px;
+    position: static;
     
 }
 
@@ -97,4 +100,51 @@ html{
     position: absolute;
     top: 21.7rem;
     left: 12.5rem;
+}
+
+@media screen and (max-width: 575px) {
+    html{
+        background-color: rgb(0, 0, 0);
+    }
+
+    body{
+        background-color: rgb(30, 30, 31);
+    }
+    
+    .container{
+        color: blue;
+        text-shadow: 0px 0px 3px white;
+        background-color: rgb(30, 30, 31);
+    }
+
+    .fa-facebook-f,.fa-twitter, .fa-google, .fa-linkedin-in{
+        background-color: white;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    html{
+        background-color: rgba(8,80,248,255);
+    }
+
+    body{
+        background-color: rgb(52, 52, 92);
+    }
+    
+    .container{
+        color: rgba(8,80,248,255);
+        text-shadow: 0px 0px 3px white;
+        background-color: rgb(52, 52, 92);
+    }
+
+    .fa-facebook-f,.fa-twitter, .fa-google, .fa-linkedin-in{
+        background-color: white;
+    }
+
+    .fa-user, .fa-envelope, .fa-lock{
+        color: rgb(52, 52, 92);
+        text-shadow: none;
+    }
+
 }
