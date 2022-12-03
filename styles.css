@@ -15,9 +15,10 @@ html{
 
 .in-put{
     display: inline-block;
-    padding-right: 50px;
+    padding-right: 10px;
+    padding-left: 40px;
     margin-bottom:px;
-    border: 1px solid gray;
+    border: 1px solid rgba(128, 128, 128, 0.466);
     border-radius: 50px;
     position: static;
     
@@ -36,8 +37,14 @@ html{
     margin-right: 9px;
     font-size:x-large;
     padding: 15px 20px;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.315);
     border-radius: 50%;
+}
+
+.fa-facebook-f:hover,.fa-twitter:hover, .fa-google:hover, .fa-linkedin-in:hover{
+    color: white;
+    background-color: rgba(8,80,248,255);
+    text-shadow: 0px 0px 10px white;
 }
 
 .plat-icon{
@@ -61,6 +68,12 @@ html{
     margin-bottom: 1rem;
     border-radius: 50px;
     padding: 5px 45px;
+}
+
+.sign-btn:hover{
+    color: white;
+    background-color: rgb(0, 0, 165);
+    text-shadow: 0px 0px 5px white;
 }
 
 .option-text{
