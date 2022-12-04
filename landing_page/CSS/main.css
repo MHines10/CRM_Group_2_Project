@@ -300,6 +300,10 @@ body, html{
 
 }
 
+.card_container{
+    margin-left: 10vh ;
+}
+
 .blue_list{
     color: white;
     font-size:smaller;
