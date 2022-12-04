@@ -65,7 +65,6 @@ body, html{
 } */
 
 
-
 /* .nav_buttons{ */
     /* display: flex; */
     /* height: 4vh; */
@@ -89,7 +88,7 @@ body, html{
 #try{
     background-color:rgba(8,80,248,255);
     font-size: small;
-    color: white;
+    color: rgb(255, 255, 255);
     border-radius: 7px;
     padding: 1vh 5vh;
     border-color: white;
