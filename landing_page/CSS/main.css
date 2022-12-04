@@ -64,7 +64,14 @@ body, html{
     
 } */
 
+.card{
+    border-radius: 20px !important;
+}
 
+.rounded-end{
+    border-end-end-radius: 20px !important;
+    border-start-end-radius: 20px !important;
+}
 /* .nav_buttons{ */
     /* display: flex; */
     /* height: 4vh; */

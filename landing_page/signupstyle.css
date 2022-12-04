@@ -98,7 +98,7 @@ html{
 }
 /* Positions the FA icons in the input field */
 .fa-user{
-    position: fixed;
+    position: absolute;
     top: 9.7rem;
     left: 12.5rem;
 }
